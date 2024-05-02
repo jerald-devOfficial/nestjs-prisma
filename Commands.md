@@ -4,3 +4,4 @@
 - [x] cd nestjs-prisma
 - [x] yarn add prisma @prisma/client
 - [x] npx prisma init
+- [x] npx prisma migrate dev --name init
