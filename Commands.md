@@ -5,3 +5,4 @@
 - [x] yarn add prisma @prisma/client
 - [x] npx prisma init
 - [x] npx prisma migrate dev --name init
+- [x] npx prisma generate
