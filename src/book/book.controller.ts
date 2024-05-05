@@ -1,7 +1,8 @@
 import { Book } from '@prisma/client'
 import { BookService } from './book.service'
-import { Body, Delete, Get, Param, Post, Put } from '@nestjs/common'
+import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common'
 
+@Controller('api/v1/book')
 export class BookController {
   constructor(private readonly bookService: BookService) {}
 
