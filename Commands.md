@@ -6,3 +6,4 @@
 - [x] npx prisma init
 - [x] npx prisma migrate dev --name init
 - [x] npx prisma generate
+- [x] yarn start:dev
